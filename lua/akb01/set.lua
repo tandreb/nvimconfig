@@ -1,5 +1,5 @@
-vim.opt.guicursor = ""
-
+--vim.opt.guicursor = ""
+vim.opt.clipboard = "unnamedplus"
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
@@ -32,5 +32,5 @@ vim.opt.colorcolumn = "80"
 
 vim.g.mapleader = " "
 
-
+vim.g.python3_host_prog= '/usr/bin/python3'
 

@@ -53,5 +53,6 @@ return require('packer').startup(function(use)
   use("folke/zen-mode.nvim")
   use("github/copilot.vim")
 
+use { "beauwilliams/focus.nvim", config = function() require("focus").setup() end }
+use ("feline-nvim/feline.nvim")
 end)
-
